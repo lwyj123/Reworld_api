@@ -1,5 +1,4 @@
-# Reworld_api
-api server for Reworld
+
 # 逗逼项目的API文档
 
 ## API接口文档
