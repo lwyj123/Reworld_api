@@ -35,13 +35,14 @@ http://localhost/Reworld_api/Public/reworldapi?service=User.Reg&email=taotao@tao
     {
     "ret": 200,
     "data": {
-        "msg": "注册成功，并自动登录！",
         "code": "1",
         "info": {
-            "userID": "26",
+            "userID": "20",
             "nickname": "taotao",
-            "Email": "taotao@taotao.com"
-        }
+            "email": "taotao@taotao.com"
+        },
+        "msg": "注册成功，并自动登录！"
     },
     "msg": ""
-    }
+}
+
