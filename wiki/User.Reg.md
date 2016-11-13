@@ -4,7 +4,7 @@
 
 ##接口调用请求说明
 
-接口URL：http://apihost/Reworld_api/?service=User.Reg
+接口URL：http://localhost/Reworld_api/Public/reworldapi?service=User.Reg
 
 请求方式：POST
 
@@ -13,7 +13,7 @@
 |参数|类型|是否必须|范围|说明|
 |:--|:--|:--|:--|:--|
 |nickname| 字符串 |   必须   |     最小：1    |         用户昵称|
-|Email   | 字符串|   必须  |        最小：1  |         用户邮箱|
+|email   | 字符串|   必须  |        最小：1  |         用户邮箱|
 |password| 字符串 |   必须   |      最小：1|           用户密码|
 
 ##返回说明
@@ -24,12 +24,12 @@
 |info         | 对象 | 用户信息对象|
 |info.userID  | 整型  | 用户ID|
 |info.nickname| 字符串| 用户昵称|
-|info.Email   | 字符串| 用户邮箱|
+|info.email   | 字符串| 用户邮箱|
 
 ##示例
 
 
-http://apihost/?service=User.Reg&Email=taotao@taotao.com&nickname=taotao&password=111111
+http://localhost/Reworld_api/Public/reworldapi?service=User.Reg&email=taotao@taotao.com&nickname=taotao&password=111111
     
     JSON:
     {
