@@ -44,5 +44,5 @@ http://localhost/Reworld_api/Public/reworldapi?service=User.Reg&email=taotao@tao
         "msg": "注册成功，并自动登录！"
     },
     "msg": ""
-}
+    }
 
