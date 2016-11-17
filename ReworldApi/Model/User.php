@@ -1,6 +1,6 @@
 <?php
 
-require_once DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'Library'.DIRECTORY_SEPARATOR.'medoo.php'; 
+require_once dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'Library'.DIRECTORY_SEPARATOR.'medoo.php'; 
 
 
 class Model_User {
