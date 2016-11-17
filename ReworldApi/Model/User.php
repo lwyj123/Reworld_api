@@ -1,6 +1,6 @@
 <?php
 
-require_once '\..\Library\medoo.php'; 
+require_once DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'Library'.DIRECTORY_SEPARATOR.'medoo.php'; 
 
 
 class Model_User {
@@ -11,7 +11,7 @@ class Model_User {
 			'database_type' => 'mysql',
 			'database_name' => 'Reworld',
 			'server' => 'localhost',
-			'username' => 'Reworld_localuser',
+			'username' => 'Reworld',
 			'password' => 'lwyj123',
 			'charset' => 'utf8'
 			]);
